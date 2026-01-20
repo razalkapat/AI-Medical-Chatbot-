@@ -1,6 +1,5 @@
 numpy==1.26.4
-torch==2.1.2+cpu
---find-links https://download.pytorch.org/whl/cpu
+torch==2.1.2
 flask==3.1.1
 sentence-transformers==4.1.0
 pypdf==5.6.1
