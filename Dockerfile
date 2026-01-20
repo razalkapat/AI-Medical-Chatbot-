@@ -4,6 +4,8 @@ WORKDIR /app
 COPY . /app
 
 RUN pip install --upgrade pip
-RUN pip install -r requirements.txt
+
+# Increase timeout + install requirements
+RUN pip --default-timeout=100 install -r requirements.txt --no-cache-dir
 
 CMD ["python3", "app.py"]
