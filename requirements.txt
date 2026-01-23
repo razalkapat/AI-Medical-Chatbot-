@@ -1,7 +1,10 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
 
 numpy<2
-torch==2.1.2
+torch==2.0.1
+
+transformers==4.36.2
+sentence-transformers==2.6.1
 
 langchain==0.3.26
 langchain-core==0.3.66
@@ -10,7 +13,6 @@ langchain-pinecone==0.2.8
 langchain-groq
 
 flask==3.1.1
-sentence-transformers==4.1.0
 pypdf==5.6.1
 python-dotenv==1.1.0
 
